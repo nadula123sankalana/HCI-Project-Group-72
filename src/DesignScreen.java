@@ -67,7 +67,7 @@ public class DesignScreen extends JFrame {
         JCheckBox loggingCheckbox = new JCheckBox("Log Interactions", true);
         loggingCheckbox.addActionListener(e -> actionLogger.setEnabled(loggingCheckbox.isSelected()));
 
-        // Add all buttons to toolbar
+        // Add buttons to toolbar
         toolbar.add(undoButton);
         toolbar.add(redoButton);
         toolbar.add(saveButton);
@@ -81,7 +81,7 @@ public class DesignScreen extends JFrame {
 
         mainPanel.add(toolbar, BorderLayout.SOUTH);
 
-        // Add design canvas
+        // Create design canvas
         designCanvas = new DesignCanvas(undoManager, actionLogger);
         mainPanel.add(designCanvas, BorderLayout.CENTER);
 
