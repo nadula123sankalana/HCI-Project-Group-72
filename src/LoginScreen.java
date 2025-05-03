@@ -18,7 +18,7 @@ public class LoginScreen extends JFrame {
         setLocationRelativeTo(null);
         setResizable(false);
 
-        // Create main panel with padding
+        // Create the main panel with padding
         JPanel mainPanel = new JPanel(new GridBagLayout());
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
         GridBagConstraints gbc = new GridBagConstraints();
