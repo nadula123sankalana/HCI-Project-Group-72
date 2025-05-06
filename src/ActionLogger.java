@@ -3,7 +3,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Handles logging of user interactions for usability testing.
+  * Handles logging of user interactions for usability testing.
+  * Logs each action with a timestamp, action name, and additional details.
  */
 public class ActionLogger {
     private static final String LOG_FILE = "user_interactions.log";
